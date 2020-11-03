@@ -1,0 +1,142 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(../images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 1440 900;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.top-container {
+  margin: 30px 60px 110px;
+  position: relative;
+}
+
+.mid-container {
+  line-height: 2;
+  margin: 80px auto;
+  padding-bottom: 100px;
+  text-align: left;
+  width: 90%;
+}
+
+.mock-up {
+  float: left;
+  margin-right: 70px;
+  width: 55%;
+}
+
+
+.btn {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  height: 0;
+  line-height: 0;
+  color: #674BAF;
+  font-family: 'Open Sans', sans-serif;
+  width: 220px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 30px;
+  border-style-hover: solid;
+  border-width-hover: 0;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background: #EEEEEE;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  text-decoration: none;
+}
+
+footer {
+
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.social {
+  display: inline-block;
+  margin-right: 80px;
+  width: 30px;
+}
+
+
+@media only screen
+and (max-device-width: 375px)
+and (orientation: portrait) {
+  body {
+    background-image: url(../images/bg-mobile.svg);
+  }
+  .top-container{
+    margin:40px 15px 0;
+  }
+
+  .mid-container{
+    margin: 40px auto 40px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 10px 0;
+  }
+
+  .logo {
+    width: 40%;
+  }
+
+  .description{
+    font-size: 16px;
+    padding: 10px 10px;
+  }
+
+  .mock-up {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .btn {
+    width: 160px;
+    font-size: 16px;
+  }
+
+  footer {
+    text-align: center;
+    position: static;
+  }
+
+  .social {
+    display: inline-block;
+    margin: auto;
+    padding: 0 10px;
+  }
+
+
+}
